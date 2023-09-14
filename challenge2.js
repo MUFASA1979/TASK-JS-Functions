@@ -66,4 +66,3 @@ function squareOrDouble(n) {
     return n*2
 }
     console.log (squareOrDouble (3));
-// both done
