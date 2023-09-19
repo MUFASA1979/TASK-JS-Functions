@@ -15,9 +15,10 @@ printName("Mustafa Fakhruddin")
  * - Age = current year - birth
  */
 function printAge(birthYear){
-    console.log (`My age is ${birthYear}`);
+    console.log (`My age is ${2023-birthYear}`);
 }
-printAge(2023-1979)
+printAge(1979)
+
 /**
  * Task 3:
  * Create a function named `printHello`
@@ -45,9 +46,9 @@ printHello ("Mustafa", "tr" )
  * - that takes 2 parameters as numbers
  * - should print out the bigger number
  */
-function printMax (DigitB, DigitA ){
-    if (DigitA>DigitB){
-        console.log (`Bigger Number is ${DigitA}`);}
-    else {console.log (`SMaller Number is ${DigitB}`);}
+function printMax (digitB, digitA ){
+    if (digitA>digitB){
+        console.log (`Bigger Number is ${digitA}`);}
+    else {console.log (`Bigger Number is ${digitB}`);}
 }
 printMax(55, 100)
